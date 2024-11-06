@@ -8,6 +8,8 @@ public class Book
     // What should a book contain?
     // Ideas: need to store text, need to store current reading position
     //        title, author?, source URL, ... 
+    private String author;
+    private int wordCount;
     private String title;
     private ArrayList<String> text = new ArrayList<String>();
 

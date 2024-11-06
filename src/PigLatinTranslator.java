@@ -27,11 +27,9 @@ public class PigLatinTranslator
 
   private static String translateWord(String input)
   {
-    // System.out.println("translateWord: '" + input + "'");
-
-    // Replace this code to correctly translate a single word.
-    // Start here first!
-    String result = input;
+ //  System.out.println("translateWord: '" + input + "'");
+   
+ String result = input;
     
     return result;
   }
