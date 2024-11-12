@@ -14,12 +14,34 @@ public class PigLatinTranslator
 
   public static String translate(String input)
   {
-    // System.out.println("Translate String: '" + input + "'");
+     System.out.println("Translate The Following String: '" + input + "'");
 
-    // Replace this code to translate a string input.
-    // The input to this function could be any English string. 
-    // A sentence, paragraph, or a single word. 
-    // It should call translateWord at least once.
+     String a = "a";
+     String e = "e";
+     String i = "i";
+     String o = "o";
+     String u = "u";
+  // YOU HAVE TO MAKE THE VOWEL BE THE FIRST LETTER OF THE WORD
+     if (input.indexOf(a) == 1)
+     {
+   // String expected = expected.substring(1,expected.length()); 
+     }
+     else if (input.indexOf(e) == 1)
+     {
+     
+     }
+     else if (input.indexOf(i) == 1)
+     {
+     
+     }
+     else if (input.indexOf(o) == 1)
+     {
+     
+     }
+     else if (input.indexOf(u) == 1)
+     {
+     
+     }
     String result = translateWord(input);
 
     return result;
