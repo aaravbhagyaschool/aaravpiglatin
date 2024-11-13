@@ -14,7 +14,6 @@ public class PigLatinTranslator
 
   public static String translate(String input)
   {
-     System.out.println("Translate The Following String: '" + input + "'");
 
      String a = "a";
      String e = "e";
@@ -49,7 +48,6 @@ public class PigLatinTranslator
 
   private static String translateWord(String input)
   {
- //  System.out.println("translateWord: '" + input + "'");
    
  String result = input;
     
